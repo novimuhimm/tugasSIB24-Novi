@@ -1,0 +1,58 @@
+<html>
+    <form action="a" method="get">
+        <label for="nama">Nama</label> </br>
+        <input type="text" id="nama" name="nama" placeholder="nama lengkap" class="form-input" />
+        <br />
+        <br />
+
+        <label for="email">Email</label> </br>
+        <input type="email" id="email" name="email" placeholder="email aktif" class="form-input" />
+        <br /><br />
+
+        <label for="nohp">Nomor HP</label><br />
+        <input type="tel" id="nohp" name="nohp" placeholder="No Hp aktif" class="form-input" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}" />
+        <br /><br />
+
+        <label for="">Jenis Kelamin</label> <br />
+        <input type="radio" id="laki-laki" name="jeniskelamin" value="laki-laki" />
+        <label for="laki-laki">Laki-Laki</label>
+        <br />
+        <input type="radio" id="perempuan" name="jeniskelamin" value="perempuan" />
+        <label for="perempuan">Perempuan</label>
+        <br /><br />
+
+        <label for="skema">Prodi</label><br />
+        <select name="skema" id="skema">
+            <option value="">pilih</option>
+            <option value="teknikinformatika">Teknik Informatika</option>
+            <option value="sisteminformasi">Sistem Informasi</option>
+            <option value="administrasibisnis">Administrasi Bisnis</option>
+            <option value="agribisnis">Agribisnis</option>
+        </select>
+        <br /><br>
+
+        <label for="hobi">Hobi</label><br />
+        <input type="checkbox" id="html" name="hobi" value="hobi" />
+        <label for="hobi">Membaca</label>
+        <br />
+        <input type="checkbox" id="hobi" name="hobi" value="hobi" />
+        <label for="hobi">Menulis</label>
+        <br />
+        <input type="checkbox" id="hobi" name="hobi" value="hobi" />
+        <label for="hobi">Menyanyi</label>
+        <br />
+        <input type="checkbox" id="hobi" name="hobi" value="hobi" />
+        <label for="hobi">Olahraga</label>
+        <br /><br />
+
+        <label for="alamat">Alamat</label>
+        <input type="text" id="nama" name="nama" placeholder="nama lengkap" class="form-input" cols="45" rows="2" class="form-input" />
+        <br /><br />
+
+        <label for="foto">Foto Diri</label> <br />
+        <input type="file" id="foto" name="foto" accept=".jpg, .png, .jpeg" />
+        <br /><br />
+
+        <input type="submit" value="submit" />
+    </form>
+</html>
