@@ -1,3 +1,7 @@
+document.addEventListener('DOMContentLoaded', function () {
+  let btn = document.getElementById('btnclick');
+});
+
 // Struktur Code
   //* Menampilkan Alert
   alert('Hallo Selamat Datang');
@@ -37,17 +41,3 @@ btnOprtn.addEventListener("click", () => {
         alert("field tidak boleh kosong");
     }
 });
-
-//Javascript variabel
-var fullName = 'Novi'
-document.write(fullName)
-document.writeln('<br>')
-
-
-var fullName = "Sania"
-document.write(fullName)
-document.writeln('<br>')
-
-fullName = "Lional Messi"
-document.write(fullName)
-document.writeln('<br>');
