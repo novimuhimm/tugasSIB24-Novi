@@ -173,7 +173,7 @@
       opacity: 1;
     }
   }
-  @media (max-width: 992px) {
+  @media (max-width: 892px) {
     .slides .navigation .prev,
     .slides .navigation .next:hover {
       font-size: 18px;
