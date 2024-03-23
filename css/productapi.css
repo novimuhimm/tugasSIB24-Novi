@@ -1,0 +1,24 @@
+* {
+    font-family: 'comic sans ms';
+  }
+  
+  #produk {
+    width: 100px;
+    border-collapse: collapse;
+  }
+  #produk th,
+  #produk td {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+  }
+  #produk th {
+    background-color: rgb(87, 202, 237);
+    font-weight: bold;
+  }
+  #produk tr:nth-child(even) {
+    background-color: rgb(51, 147, 176);
+  }
+  #produk tbody tr:hover {
+    background-color: rgb(4, 228, 236);
+  }
