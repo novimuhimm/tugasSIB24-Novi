@@ -1,5 +1,6 @@
 * {
     font-family: 'comic sans ms';
+    background-color: aquamarine;
   }
   
   #produk {
@@ -13,7 +14,7 @@
     text-align: center;
   }
   #produk th {
-    background-color: rgb(87, 202, 237);
+    background-color: rgb(176, 229, 245);
     font-weight: bold;
   }
   #produk tr:nth-child(even) {
